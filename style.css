@@ -2,5 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-style: none;
+    list-style: none;
+    /* color: #ffffff; */
 }
 
+body {
+    /* background-color: #000000; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #494949;
+}
+
+ul {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    cursor: pointer;
+}
